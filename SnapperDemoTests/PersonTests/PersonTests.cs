@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using Snapper;
+using Snapper.Attributes;
 using SnapperDemo;
 
 namespace SnapperDemoTests
@@ -25,8 +26,11 @@ namespace SnapperDemoTests
         [Test]
         public void GetterAndSetterWork()
         {
+            person.Name = "luis";
+            person.ShouldMatchChildSnapshot("update1");
+
             person.Name = "nonell";
-            person.ShouldMatchSnapshot();
+            person.ShouldMatchChildSnapshot("update2");
         }
     }
 }
