@@ -124,5 +124,9 @@
       <Name>SnapperDemo</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="PersonTests\_snapshots\PersonTests_CtorWorks.json" />
+    <Content Include="PersonTests\_snapshots\PersonTests_GetterAndSetterWork.json" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
