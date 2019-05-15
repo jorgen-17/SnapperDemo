@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapperDemo", "SnapperDemo\SnapperDemo.csproj", "{C32FDB7F-A144-43E1-9F73-628F7ABC5E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapperDemoTests", "SnapperDemoTests\SnapperDemoTests.csproj", "{A00ADA4E-64C0-4195-9200-30C4F861D517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C32FDB7F-A144-43E1-9F73-628F7ABC5E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32FDB7F-A144-43E1-9F73-628F7ABC5E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32FDB7F-A144-43E1-9F73-628F7ABC5E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32FDB7F-A144-43E1-9F73-628F7ABC5E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00ADA4E-64C0-4195-9200-30C4F861D517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00ADA4E-64C0-4195-9200-30C4F861D517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00ADA4E-64C0-4195-9200-30C4F861D517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00ADA4E-64C0-4195-9200-30C4F861D517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DEA1D29-2CAC-4A3D-BEE5-A57DBBD3E729}
+	EndGlobalSection
+EndGlobal
